@@ -1,0 +1,139 @@
+h1 {
+    text-align: center;
+    /*ketebalan font*/
+    font-weight: 300;
+}
+
+.tulisan_login {
+    text-align: center;
+    /*membuat semua huruf menjadi kapital*/
+    text-transform: uppercase;
+}
+
+.kotak_login {
+    width: 350px;
+    background: white;
+    /*meletakkan form ke tengah*/
+    margin: 80px auto;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 100px 4px #d6d6d6;
+}
+
+label {
+    font-size: 11pt;
+}
+
+.form_login {
+    /*membuat lebar form penuh*/
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+.tombol_login {
+    background: #2aa8e2;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.link {
+    color: #d46868;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+ .alert {
+    background: #f32a2a8c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #f024249c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #6a6b6b44;
+}
+
+header {
+    background-color: rgb(241, 229, 229);
+    color: rgb(130, 243, 140);
+}
+
+.section {
+    width: 90%;
+    height: 580px;
+    margin: 10px auto;
+    padding: 40px 0px;
+}
+
+.article {
+    width: 50%;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 20px 30px;
+}
+
+
+#kanan {
+    box-shadow: 0px 0px 100px 4px #daf7da;
+    float: left;
+    width: 74%;
+    margin-left: 1%;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#kiri {
+    box-shadow: 0px 0px 100px 4px #bfe2dd;
+    float: left;
+    width: 15%;
+    height: 15%;
+    background-color: #FFFFFF;
+}
+
+#kiri hr {
+    height: 5px;
+}
+
+#kiri ul {
+    list-style-type: none;
+    width: 90%;
+    padding: 0;
+    margin: 5% auto;
+}
+
+#kiri ul li {
+    height: 30px;
+    line-height: 10px;
+    width: 100%;
+    margin: 10px auto;
+    padding-left: 5px;
+}
+
+#kiri ul li:hover {
+    background-color: #F1F1F1;
+    color: #0021E9;
+}
+
+#kiri ul li a {
+    text-decoration: none;
+    line-height: 20px;
+    color: #000000;
+}
